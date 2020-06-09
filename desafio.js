@@ -44,7 +44,7 @@ function load() {
 
             html_ = html_ + item
         }
-        container.innerHTML = html_
+        container.innerHTML += html_
     })
 }
 

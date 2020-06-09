@@ -1,0 +1,168 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    text-align: center;
+
+}
+
+.margin{
+    margin-top: 40px;
+}
+
+.font12{
+    font-size: 12px;
+    
+}
+
+.font14{
+    font-size: 14px;
+    
+}
+
+.font20{
+    font-size: 20px;
+    
+}
+
+.font40posit{
+    font-size: 40px;
+    transform: translate(0, -60%);
+
+    
+}
+
+.fontwhite{
+    color: #FFFFFF;
+}
+
+.fontgrey{
+    color: #888888;
+}
+
+.font18bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.font16bold{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.mbottom0{
+    margin-bottom: 0;
+}
+
+.header {
+
+    background: #707070;
+    width: 100%;
+    height: 319px;
+    margin: 0;
+    display: table;
+    box-sizing: border-box;
+}
+
+.lineh01{
+    line-height: 10%;
+}
+
+.headblock {
+    background: white;
+    width: 160px;
+    height: 40px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 25px;
+    color: #888888;
+    line-height: 7px;
+    border: none;
+    transform: translate(0%, 50%);
+
+}
+
+
+.selec {
+    transform: translate( 0, 130%);
+
+}
+
+
+.bigcontainer{
+    width: 931px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.bigcontainer > div {
+    width: 200px;
+    height: 350px;
+    float: left;
+    transform: translate(0%, 15%);
+    margin: 10px;
+    margin-top: 0px;
+    text-align: left;  
+    align-items: flex-start;
+    
+}
+
+.prodbutton{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 25px;
+    color: #888888;
+    line-height: 7px;
+    border: 1px solid #DCDCDC;
+    transform: translate(-13%, -90%);
+
+}
+
+.moreprodbutton{
+    width: 260px;
+    height: 39px;
+    border-radius: 3px;
+    margin: 25px;
+    color: #888888;
+    line-height: 7px;
+    border: 1px solid #DCDCDC;
+    font-size: 16px;
+
+ }
+
+ .formemail{
+    width: 340px;
+    height: 30px;
+ }
+
+.emailcontainer{
+    width: 100%;
+    display: table;
+    box-sizing: border-box;    
+}
+
+ .divemail{
+    text-align: left;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.footer {
+
+    background: #707070;
+    width: 100%;
+    max-height: 100% ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}

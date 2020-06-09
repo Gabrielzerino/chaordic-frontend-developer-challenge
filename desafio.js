@@ -33,11 +33,11 @@ function load() {
                     <img src=${data.products[i].image} alt="Product"
                         width="200px" height="150px">
                 </a>
-                <p class="font14 fontgrey">${data.products[i].name}</p>
-                <p class="font12 fontgrey">${data.products[i].description}</p>
-                <p class="font12 fontgrey">De: R$${data.products[i].oldPrice.toFixed(2)}</p>
-                <p class="font16bold fontgrey lineh01">Por: R$${data.products[i].price},00</p>
-                <p class="font12 fontgrey lineh01">ou ${data.products[i].installments.count}x de R$${data.products[i].installments.value}0</p>
+                <p class="font14 fontgrey">${data.products[i].name}</p> <br>
+                <p class="font12 fontgrey">${data.products[i].description}</p><br>
+                <p class="font12 fontgrey">De: R$${data.products[i].oldPrice.toFixed(2).replace(".", ",")}</p><br>
+                <p class="font16bold fontgrey lineh01">Por: R$${data.products[i].price.toFixed(2).replace(".", ",")}</p><br>
+                <p class="font12 fontgrey lineh01">ou ${data.products[i].installments.count}x de R$${data.products[i].installments.value.toFixed(2).replace(".", ",")}</p>
                 <input type="button" class="prodbutton font14" value="Comprar">
     
             </div>       

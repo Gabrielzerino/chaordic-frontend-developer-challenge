@@ -1,10 +1,9 @@
-
-body {
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Helvetica;
     text-align: center;
-
 }
 
 .margin{
@@ -12,25 +11,19 @@ body {
 }
 
 .font12{
-    font-size: 12px;
-    
+    font-size: 12px;  
 }
 
 .font14{
     font-size: 14px;
-    
 }
 
 .font20{
     font-size: 20px;
-    
 }
 
-.font40posit{
-    font-size: 40px;
-    transform: translate(0, -60%);
-
-    
+.font40{
+    font-size: 40px;   
 }
 
 .fontwhite{
@@ -56,13 +49,11 @@ body {
 }
 
 .header {
-
     background: #707070;
     width: 100%;
     height: 319px;
     margin: 0;
     display: table;
-    box-sizing: border-box;
 }
 
 .lineh01{
@@ -107,7 +98,6 @@ body {
     float: left;
     transform: translate(0%, 15%);
     margin: 10px;
-    margin-top: 0px;
     text-align: left;  
     align-items: flex-start;
     
@@ -121,8 +111,9 @@ body {
     margin: 25px;
     color: #888888;
     line-height: 7px;
+    transform: translate(-10%, -15%);
+
     border: 1px solid #DCDCDC;
-    transform: translate(-13%, -90%);
 
 }
 
@@ -160,9 +151,9 @@ body {
 
     background: #707070;
     width: 100%;
-    max-height: 100% ;
+    height: 120px;
     margin: 0;
-    padding: 0;
-    text-align: center;
-
+    display: table;
+    box-sizing: border-box;
 }
+

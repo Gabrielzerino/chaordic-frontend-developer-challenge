@@ -26,7 +26,6 @@ function load() {
 
         let html_ = ""
         for (let i = 0; i < data.products.length; i++) {
-            console.log(data.products[i].name)
             let item =
                 ` <div>
                 <a target="_blank" href=${data.products[i].image}>

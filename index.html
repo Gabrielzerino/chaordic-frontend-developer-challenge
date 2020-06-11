@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="desafio2.css">
+
+</head>
+
+<body>
+<!-- Modais-->
+    <header>
+        <div class="modal">
+            <p>Seja bem vindo ao nosso site!</p>
+        </div>
+        <button class="closemodal">Close</button>
+
+        <div class="modal dispnone">
+            <p>Obrigado pela sua compra!</p>
+        </div>
+        <button class="closemodal dispnone">Close</button>
+<!-- Frases header-->
+        <p class="margin fontwhite mbottom0 font20">uma seleção de produtos</p>
+        <br><br>
+        <h2 class="fontwhite font40 mbottom0" onmouseover="conf(this)" onmouseout="back(this)">especial para você</h2>
+        <br>
+        <p class="font14 fontwhite">Todos os produtos desta lista foram selecionados a partir da sua navegação.
+            Aproveite!</p>
+    </header>
+
+<!-- Botões header-->
+
+    <div class="headerbutton stick">
+        <ul id="sticky">
+            <li> <input type="button" class="headblock redbut" value="Conheça a Linx" onmouseover="mOver(this)"
+                    onmouseout="mOut(this)"></li>
+            <li><input type="button" class="headblock redbut" value="Ajude o algoritmo" onmouseover="mOver(this)"
+                    onmouseout="mOut(this)"></li>
+            <li><input type="button" class="headblock redbut" value="Seus produtos" onmouseover="mOver(this)"
+                    onmouseout="mOut(this)"></li>
+            <li><input type="button" class="headblock redbut" value="Compartilhe" onmouseover="mOver(this)"
+                    onmouseout="mOut(this)"></li>
+        </ul>
+    </div>
+
+<!-- Frase Seçeção-->
+    <br><br>    
+    <p class=" fontgrey font18bold">Sua seleção especial</p>
+    <br>
+
+<!-- Container de produtos-->
+    <div class="bigcontainer" id="_container"></div>
+    </br> </br> <br>
+    
+<!-- Botão mais produtos-->
+    <input type="button" class="moreprodbutton" value="Ainda mais produtos aqui">
+    </br> </br> <br>
+
+<!-- Frase email-->
+    <p class="selec fontgrey font18bold">Compartilhe a novidade</p>
+    </br>
+    <p class="font14 fontgrey">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+    </br>
+
+<!-- Form email-->
+    <form action="">
+        <div class="emailcontainer">
+            <div class="divemail">
+                <label class="font12 fontgrey transfemail1" for="name">Nome do seu amigo:</label><br>
+                <input type="text" class="formemail" name="name">
+            </div>
+            <div class="divemail">
+                <label class="font12 fontgrey" for="lname">Email:</label><br>
+                <input type="email" class="formemail" name="lname">
+            </div>
+        </div>
+        <br>
+        <input type="submit" class="moreprodbutton" value="Enviar agora">
+    </form>
+    <br>
+
+<!-- JS-->
+    <script src="desafio2.js"></script>
+
+<!-- Footer-->
+    <footer class="footer">
+
+        <br><br>
+        <p class="font14 fontwhite ">Testando habilidades em HTML, CSS e JS</p>
+        <p class="font14 fontwhite ">Linx Impulse</p>
+        <p class="font14 fontwhite ">2019</p>
+    </footer>
+</body>
+
+
+</html>
